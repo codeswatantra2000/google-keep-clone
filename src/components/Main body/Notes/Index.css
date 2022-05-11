@@ -1,0 +1,229 @@
+
+.notes-section{
+  margin: 6rem 2.4rem 4rem 2.3rem;
+  width: 20%;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 2rem 1rem 2rem 1rem;
+      background-color: white;
+
+}
+
+.notes-section h2{
+  outline: none;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'montserrat',sans-serif;
+word-wrap:break-word;
+  width: inherit;
+  overflow-wrap: break-word;
+  height:fit-content;
+}
+
+.notes-section p{
+  outline: none;
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  word-wrap:break-word;
+  width: inherit;
+  overflow-wrap: break-word;
+}
+
+.notes-section button{
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-image: linear-gradient(to right, red, orange);
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+  cursor: pointer;
+  display: flex;
+  margin: 2rem 1rem 0 auto;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+.notes-section button:hover{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .notes-section {
+    width: 40%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+
+@media (max-width: 1360px) {
+  .notes-section {
+    width: 25%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  .notes-section {
+    width: 40%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+@media (max-width: 750px) {
+  .notes-section {
+    width: 70%;
+    margin: 4rem 3rem 3rem 7rem;
+  }
+}
+@media (max-width: 500px) {
+  .notes-section {
+    width: 70%;
+    margin: 0.2rem 3rem 3rem 4.3rem;
+  }
+
+  .notes-section h2{
+  outline: none;
+  border: none;
+  padding: 0 0.3rem 0 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'montserrat',sans-serif;
+word-wrap:break-word;
+  width: inherit;
+  overflow-wrap: break-word;
+  height:fit-content;
+}
+
+.notes-section p{
+  outline: none;
+  border: none;
+  padding: 0 0.1rem 0 0.4rem;
+  word-wrap:break-word;
+  width: inherit;
+  overflow-wrap: break-word;
+}
+
+.notes-section button{
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, red, orange);
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.11) 0px 10px 20px, rgba(0, 0, 0, 0.223) 0px 4px 8px;
+  cursor: pointer;
+  display: flex;
+  margin: 2rem 1rem 0 auto;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .small-section {
+  margin: 6rem 2rem 4rem 5rem;
+  display: inline-block;
+  width: 25%;
+}
+.Box {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 2rem 1rem 1rem 2rem;
+ 
+}
+
+.Card {
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+.edit-btns {
+  display: flex;
+  margin: 2rem 1rem 1rem 0;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+
+
+@media (max-width: 800px) {
+  .small-section {
+    width: 40%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+
+@media (max-width: 1360px) {
+  .small-section {
+    width: 25%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+
+@media (max-width: 1130px) {
+  .small-section {
+    width: 40%;
+    margin: 4rem 2rem 3rem 2.6rem;
+  }
+}
+@media (max-width: 750px) {
+  .small-section {
+    width: 70%;
+    margin: 4rem 3rem 3rem 7rem;
+  }
+}
+@media (max-width: 500px) {
+  .small-section {
+    width: 70%;
+    margin: 4rem 3rem 3rem 5rem;
+  }
+} */

@@ -1,0 +1,23 @@
+.footer-main{
+color: white;
+background-color: #367676;
+background-image: linear-gradient(315deg, #0a7575 0%, #380036 74%);
+margin-top: 4rem;
+
+}
+
+h4{
+    text-align: center;
+    align-items:center;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+}
+
+
+@media (max-width:500px) {
+    .footer-main{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,72 @@
+.container{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding:1rem 2rem 1rem 2rem;
+    margin-top: 4rem;
+}
+
+.input-mui input{
+    padding: 1.4rem;
+    width:100%;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'montserrat',sans-serif;
+    outline: none;
+    border: none;
+
+}
+
+.textfield-mui textarea{
+    padding: 1.4rem;
+    width:100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'montserrat',sans-serif;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.addicon-btn{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.addicon-btn button{
+    font-size: 4rem;
+    border-radius: 50%;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    right: 0;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position:static;
+    margin-bottom: 2rem;
+    color: black;
+ background-image: linear-gradient(to left,yellow,orange);
+}
+
+.addicon-btn button:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media(max-width:1060px){
+    .body-main{
+        margin: 4.4rem 4.4rem 1rem 4.4rem;
+    }
+    .addicon-btn button{
+        background-image: linear-gradient(to right, pink,rgb(245, 84, 245));
+    }
+}
+
+@media (max-width:500px) {
+    .body-main{
+        margin: 2rem 4.4rem 3rem 4.4rem;
+    }
+    .addicon-btn button{
+        background-image: linear-gradient(to right, pink,rgb(245, 84, 245));
+        margin-bottom: 1rem;
+        margin-top: 0.1rem;
+    }
+}
